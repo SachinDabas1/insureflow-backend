@@ -1,5 +1,5 @@
 import cron from "node-cron";
-import Policy from "../models/Policy.model.js";
+import Policy from "../models/policy.model.js";
 
 // Runs every day at 12:00 AM
 cron.schedule("0 0 * * *", async () => {

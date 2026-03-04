@@ -1,5 +1,5 @@
-import Policy from "../models/Policy.model.js";
-import Customer from "../models/Customer.model.js";
+import Policy from "../models/policy.model.js";
+import Customer from "../models/customer.model.js";
 
 /**
  * @desc   Create policy

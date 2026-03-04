@@ -1,5 +1,5 @@
-import Claim from "../models/Claim.model.js";
-import Policy from "../models/Policy.model.js";
+import Claim from "../models/claim.model.js";
+import Policy from "../models/policy.model.js";
 
 /**
  * Create claim
