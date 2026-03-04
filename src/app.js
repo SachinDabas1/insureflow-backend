@@ -12,7 +12,7 @@ import errorHandler from "./middlewares/error.middleware.js";
 const app = express();
 
 // Middleware
-app.use(cors({ origin: ['http://localhost:4200', 'https://*.vercel.app'], credentials: true }));
+app.use(cors({ origin: ['http://localhost:4200', 'https://insureflow-frontend.vercel.app'], credentials: true }));
 app.use(express.json());
 
 // Routes
